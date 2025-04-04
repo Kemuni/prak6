@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 // Конфигурация сессии
 app.use(session({
-    secret: 'complex_secret_key_123!@#',
+    secret: 'super_secret_key_session_super_puper',
     resave: false,
     saveUninitialized: false,
     cookie: {
